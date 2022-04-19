@@ -12,7 +12,7 @@ function setup() {
 }
 
 function draw() {
-  background(40);
+  background(200, 10, 40);
 
   for (let i=0; i<arraySize; i++){
     myBall[i].move();
