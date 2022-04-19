@@ -7,12 +7,12 @@ function setup() {
   noStroke();
 
   for (let i=0; i<arraySize; i++){
-    myBall[i] = new Ball( width/2, height/2, random(255), random(2,30) );
+    myBall[i] = new Ball( width/2, height/2, random(255), random(2,100) );
   }
 }
 
 function draw() {
-  background(200, 10, 40);
+  background(200, 10, 255);
 
   for (let i=0; i<arraySize; i++){
     myBall[i].move();
