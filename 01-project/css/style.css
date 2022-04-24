@@ -1,21 +1,33 @@
 body {
 	font-family: 'Helvetica';
+	background-color: blanchedalmond;
 }
-h3 {
-	background-color: #EEE;
+h1 {
+	background-color: blue;
+	color: brown;
 }
 p {
-	background-color: #EEE;
+	color: burlywood;
 }
-
-div {
-	width: 300px;
-	height: 250px;
-
-	border-style: solid;
-	border-width: 1px;
-	border-color: gray;
-
-	padding: 30px 120px 0px 50px;
-	margin: 50px 80px;
+script {
+	background-position: 100%;
+	background-color: antiquewhite;
 }
+body{
+	position: absolute;
+	width: auto;
+}
+html, body {
+	margin: 0;
+	padding: 0;
+}
+canvas{
+	display: block;
+}
+  
+  #p5-canvas {
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+  }
