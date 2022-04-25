@@ -9,21 +9,13 @@ h1 {
 p {
 	color: burlywood;
 }
-script {
-	background-position: 100%;
-	background-color: antiquewhite;
-}
-body{
-	position: absolute;
-	width: auto;
-}
 html, body {
 	margin: 0;
 	padding: 0;
-}
-canvas{
+  }
+  canvas {
 	display: block;
-}
+  }
   
   #p5-canvas {
 	position: absolute;
@@ -31,3 +23,4 @@ canvas{
 	top: 50%;
 	transform: translate(-50%, -50%);
   }
+  

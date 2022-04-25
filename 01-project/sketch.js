@@ -1,7 +1,7 @@
 let img;
 
 function setup() {
-  let canvas = createCanvas(600, 600);
+ let canvas = createCanvas(600, 600);
  img = loadImage('XJS81C.jpg');
  canvas.id("p5-canvas");
 }
