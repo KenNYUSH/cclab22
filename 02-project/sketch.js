@@ -34,6 +34,7 @@ function setup() {
  let canvas = createCanvas(WIDTH, HEIGHT);
   delayBlinkEye = floor(random(minimumDelayBlinkEye, maximumDelayBlinkEye));
   eyeLidAngle = PI;
+  canvas.id("p5-canvas");
 }
 
 

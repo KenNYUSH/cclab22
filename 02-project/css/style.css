@@ -9,6 +9,14 @@ canvas {
   width: 100%;
   top: calc(50% - 200px);  /* half of canvas height */
 }
+#p5-canvas { 
+  display: block;
+  position: absolute;
+  width: 100%;
+  top: calc(50% - 200px); 
+
+}
+
  h1 {
    color: aqua;
  }
