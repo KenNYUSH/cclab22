@@ -13,17 +13,20 @@ canvas {
   display: block;
   position: absolute;
   width: 100%;
-  top: calc(50% - 200px); 
+  top: calc(50% - 200px);
+  right: 0;
 
 }
 
  h1 {
    color: aqua;
+   position: absolute;
  }
  h2 {
    color: aliceblue;
  }
  p {
-   color:brown
+   color:brown;
+   position: absolute;
    
  }
