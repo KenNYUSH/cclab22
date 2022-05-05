@@ -4,17 +4,30 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
+  <link rel="stylesheet" href="css/style.css">
   <script src="libraries/p5.js"></script>
   <script src="sketch.js"></script>
-  <link rel="stylesheet" href="css/style.css">
+  
   <title>CCLab</title>
 </head>
 <body>
-  <h1> Finding Food Interaction Game</h1>
+  <h2> Finding Food Interaction Game</h2>
+  <p>Description: Help my creature to find the food by clicking all of the boxes as needed to get more clues to the source of the food. Then type 
+    the final answer based on the clues you got, down below in the answer box. And hopefully
+    you won't fail my creature and take them to the death path instead saving thier life from starving. </p>
+
+ <div class="instruction">
+   <h1> Finding Food Interaction Game</h1>
   <p>Description: Help my creature find the food by clicking all of the boxes as needed to get more clues to the source of the food. And hopefully
     you won't fail my creature and take them to the death path, instead. </p>
+  </div>
     <div id='container'><div id="p5-canvas"></div></div>
+    <button id="button" onclick="fake()">click here</button> 
+
+    <form>
+      <label for="fname">Answer</label>
+      <input type="text" id="fname" name="fname">
+    </form>
 
 </body>
 </html>

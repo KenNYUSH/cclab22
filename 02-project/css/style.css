@@ -6,27 +6,48 @@ html, body {
 canvas {
   display: block;
   position: absolute;
-  width: 100%;
-  top: calc(50% - 200px);  /* half of canvas height */
+  width: 75%;
+  height: 50%;
+  top: calc(75% - 200px);  /* half of canvas height */
 }
 #p5-canvas { 
   display: block;
   position: absolute;
-  width: 100%;
-  top: calc(50% - 200px);
-  right: 0;
-
+  width: 75%;
+  height: 50%;
+  right: 50;
+  left: 50%;
+  top: 95%;
+  transform: translate(-50%, -50%);
 }
-
+body{
+  background-color: antiquewhite;
+}
  h1 {
    color: aqua;
-   position: absolute;
+   
  }
  h2 {
-   color: aliceblue;
+   color: blue;
+   text-decoration: overline;
+   text-decoration: underline;
+  
  }
  p {
    color:brown;
-   position: absolute;
-   
- }
+   background-color: lightcoral;
+   width: 500px;
+   border: 10px solid green;
+   padding: 25px;
+   margin: 20px;
+   }
+
+   .instruction{
+     display: none;
+   }
+
+   input {
+    width: 100%;
+    color: darkorange
+  }
+

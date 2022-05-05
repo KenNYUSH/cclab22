@@ -223,3 +223,8 @@ class Eye {
     );
   }
 }
+
+function fake(){
+  $(".instruction").style.display = "block"
+}
+
